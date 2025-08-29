@@ -56,9 +56,12 @@ st.write("Check if a UPI ID looks suspicious or safe")
 
 upi_input = st.text_input("Enter a UPI ID:")
 
-if st.button("Check"):
-    if upi_input:
-        result = check_upi_id(upi_input)
-        st.success(result) if "✅" in result else st.error(result)
+if st.button("Check Now"):
+    if upi:
+        result = check_upi_id(upi)
+        if "✅" in result:
+            st.success(result)
+        else:
+            st.error(result)
     else:
-        st.warning("Please enter a UPI ID first.")
+        st.warning("⚠️ Please enter a UPI ID to check.")
