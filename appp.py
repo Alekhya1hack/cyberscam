@@ -50,24 +50,15 @@ def check_upi_id(upi_id: str) -> str:
 
     return f"✅ Safe UPI ID: {upi_id}"
 
-
 # ---------------- STREAMLIT APP ----------------
-st.set_page_config(page_title="UPI Scam Detector", page_icon="🔒")
-
-st.title("🔒 UPI Scam Detector")
+st.title("🔐 UPI Scam Detector")
 st.write("Check if a UPI ID looks suspicious or safe")
 
-upi = st.text_input("Enter a UPI ID:")
+upi_input = st.text_input("Enter a UPI ID:")
 
-if st.button("Check Now"):
-    if upi.strip():   # ✅ check after input
-        result = check_upi_id(upi.strip())
-
-        if "✅" in result:
-            st.success(result)      # Green box
-        elif "⚠️" in result:
-            st.warning(result)      # Yellow box
-        else:
-            st.error(result)        # Red box
+if st.button("Check"):
+    if upi_input:
+        result = check_upi_id(upi_input)
+        st.success(result) if "✅" in result else st.error(result)
     else:
-        st.warning("⚠️ Please enter a UPI ID to check.")
+        st.warning("Please enter a UPI ID first.")
