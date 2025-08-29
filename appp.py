@@ -50,11 +50,8 @@ def check_upi_id(upi_id: str) -> str:
 
     return f"✅ Safe UPI ID: {upi_id}"
 
-# ---------------- STREAMLIT APP ----------------
-import streamlit as st
-from phishing_detector import check_upi_id
 
-# Streamlit UI
+# ---------------- STREAMLIT APP ----------------
 st.set_page_config(page_title="UPI Scam Detector", page_icon="🔒")
 
 st.title("🔒 UPI Scam Detector")
