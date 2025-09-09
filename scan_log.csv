@@ -1,0 +1,13 @@
+Timestamp,Type,Details,Score,Verdict
+2025-09-09T10:22:20.791909,UPI,alekhay@sbi,0,Likely Genuine ✅
+2025-09-09T10:22:43.726426,QR,upi://pay?pa=8290365105@okbizaxis&pn=Kalu%20Ram%20Meena&mc=5411&aid=uGICAgIDn4PXwRA&ver=01&mode=01&tr=BCR2DN6T37FNPXT7,50,Fake ⚠️
+2025-09-09T10:23:09.352676,Screenshot,screenshot.png,20,Likely Genuine ✅
+2025-09-09T10:28:04.128878,UPI,alekhay@sbi,0,Likely Genuine ✅
+2025-09-09T10:28:22.884630,QR,upi://pay?pa=8290365105@okbizaxis&pn=Kalu%20Ram%20Meena&mc=5411&aid=uGICAgIDn4PXwRA&ver=01&mode=01&tr=BCR2DN6T37FNPXT7,50,Fake ⚠️
+2025-09-09T10:28:44.498872,QR,upi://pay?pa=alekhya0219-1@oksbi&pn=koppuravuri%20alekhya&aid=uGICAgMDMy4XcMw,50,Fake ⚠️
+2025-09-09T10:29:17.882792,Screenshot,screenshot.png,20,Likely Genuine ✅
+2025-09-09T10:29:49.413029,Screenshot,screenshot.png,20,Likely Genuine ✅
+2025-09-09T10:30:02.991636,Screenshot,screenshot.png,20,Likely Genuine ✅
+2025-09-09T10:30:33.857956,Screenshot,screenshot.png,20,Likely Genuine ✅
+2025-09-09T10:30:49.351281,Screenshot,screenshot.png,20,Likely Genuine ✅
+2025-09-09T10:30:57.025120,Screenshot,screenshot.png,20,Likely Genuine ✅

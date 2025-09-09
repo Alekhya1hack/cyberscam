@@ -1,0 +1,6 @@
+Timestamp,Type,Details,Score,Verdict
+2025-09-09T09:57:41.310795,UPI,alekhay@sbi,0,Genuine
+2025-09-09T09:58:23.197110,QR Background,gpay fake.jpg,80,Fake
+2025-09-09T10:01:44.064576,Screenshot,WhatsApp Image 2025-09-04 at 23.01.40_0d1e0871.jpg,65,Suspicious
+2025-09-09T10:04:56.631102,Screenshot,fake payment 1.jpg,80,Fake
+2025-09-09T10:07:22.228619,Screenshot,123.jpg,40,Suspicious

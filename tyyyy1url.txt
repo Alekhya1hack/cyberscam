@@ -1,0 +1,1 @@
+pip install streamlit opencv-python-headless numpy pillow imagehash python-Levenshtein scikit-image pytesseract
